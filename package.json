@@ -1,0 +1,15 @@
+{
+  "name": "testviacep",
+  "version": "1.0.0",
+  "description": "Desafio Teste ViaCEP",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "fpmascarenhas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
