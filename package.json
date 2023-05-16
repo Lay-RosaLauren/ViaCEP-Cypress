@@ -1,14 +1,14 @@
 {
   "name": "testviacep",
   "version": "1.0.0",
-  "description": "Desafio Teste ViaCEP",
+  "description": "ViaCEP-Cypress",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
   },
   "keywords": [],
-  "author": "fpmascarenhas",
-  "license": "ISC",
+  "author": "Lay-RosaLauren",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^9.7.0"
   }
