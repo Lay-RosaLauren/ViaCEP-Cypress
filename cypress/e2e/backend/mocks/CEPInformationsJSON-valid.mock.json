@@ -1,12 +1,12 @@
 {
-    "cep": "20745-230",
-    "logradouro": "Rua Joaquim Martins",
-    "complemento": "lado ímpar",
-    "bairro": "Encantado",
-    "localidade": "Rio de Janeiro",
-    "uf": "RJ",
-    "ibge": "3304557",
-    "gia": "",
-    "ddd": "21",
-    "siafi": "6001"
-}
+    "cep": "14010-070",
+    "logradouro": "Rua Amador Bueno",
+    "complemento": "",
+    "bairro": "Centro",
+    "localidade": "Ribeirão Preto",
+    "uf": "SP",
+    "ibge": "3543402",
+    "gia": "5824",
+    "ddd": "16",
+    "siafi": "6969"
+  }
