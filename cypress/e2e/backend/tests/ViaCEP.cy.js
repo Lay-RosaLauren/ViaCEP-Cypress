@@ -4,7 +4,7 @@ import CEPInformationsMock from '../mocks/CEPInformationsJSON-valid.mock.json';
 
 describe('Desafio: Testes da API pública de consulta de CEP ViaCEP', () => {
     it('Deve retornar um objeto sobre o CEP em Via CEP API - Status Code 200', () => {
-        const cep = '20745-230';
+        const cep = '14010-070';
 
         viaCEPRequest.findCep(cep).then((response) => {
             expect(response.status).to.eq(200);
@@ -14,7 +14,7 @@ describe('Desafio: Testes da API pública de consulta de CEP ViaCEP', () => {
     });
 
     it('Não Deve retornar um objeto sobre o CEP em Via CEP API - Status Code 400', () => {
-        const cep = '207';
+        const cep = '14010';
 
         viaCEPRequest.findCep(cep).then((response) => {
             expect(response.status).to.eq(400).to.not.eq(200);
@@ -25,7 +25,7 @@ describe('Desafio: Testes da API pública de consulta de CEP ViaCEP', () => {
     });    
 
     it('Não Deve retornar um objeto sobre o CEP em Via CEP API - Status Code 400', () => {
-        const cep = '2074';
+        const cep = '140';
 
         viaCEPRequest.findCep(cep).then((response) => {
             expect(response.status).to.eq(400);
